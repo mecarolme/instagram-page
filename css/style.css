@@ -1,0 +1,154 @@
+* {
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.col-lg-6{
+    margin-top: 50px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.instagram-phone{
+    margin-right: 25px;
+}
+
+.instagram-logo{
+    padding-top: 7px;
+}
+
+.profile-photo{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.instagram-continue{
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+
+    height: 370px;
+    width: 350px;
+    margin: 0.7rem;
+
+    padding-top: 25px;
+}
+
+.group{
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+
+    height: 65px;
+    width: 350px;
+    margin: 0.7rem;
+
+}
+
+.not-account{
+    margin: 10px 0 2px 0;
+}
+
+.link{
+    font-weight: 600;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.instagram-login{
+    background-color: #0895f6;
+    color: #ffffff;
+
+    padding: 10px;
+    border: 1px solid transparent;
+    
+    height: 30px;
+    width: 268px;
+
+    border-radius: 0.3rem;
+    letter-spacing: 0.1px;
+
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.instagram-logout {
+    color: #0895f6;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.linkss{
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.get-the-app{
+    height: 102px;
+    width: 350px;
+    margin: 0.7rem;
+}
+
+p.get-app{
+    padding-top: 12px;
+}
+
+.app-download1{
+    margin-right: 5px;
+}
+
+.download{
+    margin-top: 0.2px;
+}
+
+footer{
+    color: gray;
+
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    padding-top: 34px;
+    padding-bottom: 50px;
+}
+
+footer a:link{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+footer a:visited {
+    color: gray;
+}
+
+.outros{
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+footer h6{
+    font-size: 12px;
+    margin-right: 15px;
+    color: gray;
+}

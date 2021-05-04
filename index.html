@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
 
@@ -13,47 +15,103 @@
 </head>
 
 <body>
-    <div class="instagram-wrapper">
+<div class="conteudo text-center">
 
-    <div class="instagram-phone">
-        <img src="./img/instagram-phone.png" alt="celular">
-    </div>
-
-    <div class="instagram-continue">
-
-    <div class="group">
-        <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-
-        <div class="profile-photo">
-        <img src="./img/profile2.jpg" alt="foto de perfil">   
+    <div class="row">
+        <div class="row-lg-6">
+            <div class="instagram-phone text-center">
+                <img src="./img/instagram-phone.png" alt="celular">
+            </div>
         </div>
-        <a href="#" class="instagram-login">Continuar como miaumiau00</a>
-        <a href="#" class="instagram-logout">Remover conta</a>
     </div>
 
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="instagram-continue text-center">               
+                    <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+
+                    <div class="profile-photo">
+                        <img src="./img/profile2.jpg" class="rounded-circle" width="100" height="100" alt="foto de perfil">   
+                    </div>
+
+                    <div class="linkss">
+                        <a href="#" class="instagram-login">Continuar como miaumiau00</a>
+                        <a href="#" class="instagram-logout">Remover conta</a>
+                    </div> 
+                </div>
+    
     <div class="group">
         <p class="not-account">Não é miaumiau00?</p>
-        <p class="not-account">
+        <p>
                 <a href="#" class="link">Trocar de conta</a>
             ou
                 <a href="#" class="link">Cadastre-se</a>
         </p>
     </div>
-
+        
     <div class="get-the-app">
-        <p class="get-app">Obtenha o aplicativo.</p>
-        <div class="download">
-            <a href="#" class="app-download"></a>
-            <a href="#" class="app-download"></a>
+        <p class="get-app text-center">Obtenha o aplicativo.</p>
+
+        <div class="download text-center">
+            <a href="#" class="app-download1">
+                <img src="./img/appstore.png" width="135" alt="app store">
+            </a>
+
+            <a href="#" class="app-download2">
+                <img src="img/googleplay.png" width="135" alt="google play">
+            </a>
         </div>
     </div>
-</div>
+
+        </div>
+    </div>
+
 </div>
 
 <footer>
-    <p class="lingua">Português (Brasil)</p>
-    <p class="rede">© 2021 Instagram do Facebook</p>
-    </footer>
+    <section id="rodape">
+        <div class="container text-center">
+
+        <div class="row">
+            <div class="row-sm-4">
+            <!-- Primeira linha -->
+            <a href="#">Sobre</a>
+            <a href="#">Blog</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Ajuda</a>
+            <a href="#">API</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Principais contas</a>
+            <a href="#">Hashtags</a>
+            <a href="#">Localizações</a>
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="row-sm-4">
+                    <!-- Segunda linha -->
+                    <a href="#">Beleza</a>
+                    <a href="#">Dança e apresentação</a>
+                    <a href="#">Fitness</a>
+                    <a href="#">Comida e bebida</a>
+                    <a href="#">Casa e jardim</a>
+                    <a href="#">Música</a>
+                    <a href="#">Artes visuais</a>    
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-sm-4">
+                <div class="outros">
+                    <h6 class="lingua">Português (Brasil)</h6>
+                    <h6 class="rede">© 2021 Instagram do Facebook</h6>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</footer>
 
 </body>
 </html>
