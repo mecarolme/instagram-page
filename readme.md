@@ -2,10 +2,7 @@
 
 ### Projeto guiado pela Digital Innovation One
 
-Segui um pequeno projeto do Bootcamp da DIO "HTML Web Developer". Onde o objetivo foi reproduzir a página inicial de login do Instagram.
-
----
-
-Alterei algumas coisas da idéia proposta, pra ficar mais semelhante a página do Insta como é hoje (25/04).          
-
-Foi usado HTML e CSS no desenvolvimento.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/77502177/156078289-2441bb9b-171e-4a5f-a998-c8d4193e588c.png">
+  O objetivo foi reproduzir a página inicial de login do Instagram.
+</div>
